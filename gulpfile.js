@@ -4,7 +4,7 @@ var exec = require('child_process').exec;
 
 
 function min() {
-  return src('a.js', {base: './'})
+  return src('./source/source.js', {base: './'})
         .pipe(closureCompiler({
             compilation_level: 'SIMPLE',
             warning_level: 'VERBOSE',
@@ -20,7 +20,7 @@ function min() {
 
 function tsc(cb){
     
-    exec('npx tsc -p tsconfig.json -out ./a.js', (error, stdout, stderr) => {
+    exec('npx tsc -p tsconfig.json -out ./source/source.js', (error, stdout, stderr) => {
         if (error) {
           console.error(`exec error: ${error}`);
         }
@@ -28,7 +28,6 @@ function tsc(cb){
         console.error(`stderr: ${stderr}`);
         cb();
     });
-    cb();
 }
 
 
