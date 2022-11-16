@@ -1,0 +1,8 @@
+{
+    "compilerOptions": {
+        "target": "es6"
+        //"removeComments": true,
+    },
+    "files": ["./a.ts"]
+    //"include": ["src/**/*"],
+}

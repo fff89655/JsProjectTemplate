@@ -1,0 +1,23 @@
+{
+  "name": "visualinterface",
+  "version": "1.0.0",
+  "description": "",
+  "main": "a.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fff89655/VisualInterface.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fff89655/VisualInterface/issues"
+  },
+  "homepage": "https://github.com/fff89655/VisualInterface#readme",
+  "dependencies": {
+    "google-closure-compiler": "^20221102.0.0",
+    "gulp": "^4.0.2"
+  }
+}

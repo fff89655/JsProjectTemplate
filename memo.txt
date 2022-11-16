@@ -1,0 +1,16 @@
+npm init
+npm install gulp
+npm install google-closure-compiler
+
+
+
+
+
+
+npx tsc -p tsconfig.json -out ./a.js
+
+
+
+
+npx gulp
+npx gulp tsc
