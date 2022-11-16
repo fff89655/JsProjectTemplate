@@ -18,6 +18,7 @@
   "homepage": "https://github.com/fff89655/VisualInterface#readme",
   "dependencies": {
     "google-closure-compiler": "^20221102.0.0",
-    "gulp": "^4.0.2"
+    "gulp": "^4.0.2",
+    "gulp-wrapper": "^1.0.0"
   }
 }
